@@ -1,15 +1,15 @@
 
 body {
-background-colour: #666;
-		line-hieght: 1.4;
-
-#page {
+	background-color: #666;
+		line-height: 1.4;
+}
+#page { 
 	width: 70%;
-   background color: white;
-    margin: 50px auto
-			padding: 5%;
+   background-color: white;
+    margin: 50px auto;
+	padding: 5%;
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.75);
-]
+}
 
 /* Multi-column layout
 -------------------------------------------------- */
@@ -19,4 +19,6 @@ main {
 }
 main p:first-child {
   margin-top: 0;
+  break-inside: avoid;
+  padding: 1em;
 }
