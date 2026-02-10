@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic */
+body {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #2a2a2a;
+    background: #fafafa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #4a4a4a;
+}
