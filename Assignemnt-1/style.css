@@ -101,4 +101,94 @@ header .artist {
     font-weight: 400;
     font-style: italic;
 }
+/* Main */
+main {
+    flex: 1;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+/* Lyrics */
+.lyrics {
+    background: #fafafa;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.lyrics section {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed #ccc;
+}
+
+.lyrics section:last-child {
+    border: none;
+    margin: 0;
+}
+
+.lyrics h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.lyrics p {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.02em;
+}
+
+/* Aside */
+.aside {
+    background: #fafafa;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background: #1a1a1a;
+    color: #fafafa;
+    padding: 3rem 1.5rem;
+    margin-top: 3rem;
+}
+
+footer section {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+footer h2,
+footer h3 {
+    color: #fafafa;
+    border-bottom-color: #fafafa;
+}
+
+footer a {
+    color: #fafafa;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #808080;
+    border-top: 1px solid #808080;
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+}
 
