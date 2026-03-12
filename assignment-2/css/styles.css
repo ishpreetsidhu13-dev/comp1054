@@ -132,3 +132,33 @@ article p {
     font-variant-ligatures: common-ligatures;
 }
 
+/* pseudo */
+article p::first-letter {
+    font-size: 1.1em;
+}
+
+/* quotes */
+article q {
+    quotes: "“" "”" "‘" "’";
+}
+
+article q::before {
+    content: open-quote;
+}
+
+article q::after {
+    content: close-quote;
+}
+
+/* pseudo */
+a:hover {
+    text-decoration: underline;
+}
+
+/* author */
+article p:last-of-type {
+    margin-top: 0.25rem;
+    text-align: right;
+    font-weight: 700;
+}
+
