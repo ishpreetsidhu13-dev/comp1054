@@ -22,3 +22,21 @@ header, footer {
     background: #f8f7f4;
     box-shadow: 0 0 0 1px #d7d1ca;
 }
+/* upper title*/
+header {
+    margin: 0 0 16px;
+}
+
+header h1 {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 16px 0 8px;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #d69048;
+    line-height: 1;
+}
