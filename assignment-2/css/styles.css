@@ -105,3 +105,30 @@ article > h2:first-of-type + p strong {
     color: #d69048;
     font-weight: 700;
 }
+
+/* contextual */
+article > h2:not(:first-of-type) {
+    break-after: avoid;
+    page-break-after: avoid;
+    margin: 0.1rem 0 0.1rem;
+    font-family: "Libre Baskerville", Georgia, serif;
+    font-size: 0.95rem;
+    line-height: 1.08;
+    font-weight: 700;
+    color: #2b2422;
+}
+
+/* body */
+article p {
+    margin: 0 0 0.34rem;
+    font-family: "Libre Baskerville", Georgia, serif;
+    font-size: 0.95rem;
+    line-height: 1.14;
+    color: #342b28;
+    text-align: left;
+
+    /* typography */
+    hyphens: auto;
+    font-variant-ligatures: common-ligatures;
+}
+
