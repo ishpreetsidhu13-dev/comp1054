@@ -58,3 +58,17 @@ article {
     orphans: 3;
     widows: 3;
 }
+/* image */
+article img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* combine select */
+article > img:first-of-type {
+    width: 100%;
+    margin: 0 0 16px;
+    break-after: avoid;
+    page-break-after: avoid;
+}
