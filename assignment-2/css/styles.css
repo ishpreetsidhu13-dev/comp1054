@@ -40,3 +40,21 @@ header h1 {
     color: #d69048;
     line-height: 1;
 }
+/* pseudo  */
+header h1::after {
+    content: "";
+    position: absolute;
+    top: 0.08em;
+    right: 0;
+    width: 1px;
+    height: 0.95em;
+    background: #8d847d;
+}
+
+/* page layout */
+article {
+    column-count: 3;
+    column-gap: 18px;
+    orphans: 3;
+    widows: 3;
+}
