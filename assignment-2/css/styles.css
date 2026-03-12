@@ -162,3 +162,29 @@ article p:last-of-type {
     font-weight: 700;
 }
 
+/* footer */
+footer {
+    margin-top: 14px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #2a2523;
+    letter-spacing: 0.01em;
+}
+
+footer small {
+    font-size: 1em;
+}
+
+footer em {
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+footer time {
+    margin-right: 6px;
+}
