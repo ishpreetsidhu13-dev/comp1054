@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+html {
+    font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 1.5rem;
+    background: #f4f7fb;
+    color: #000000;
+}
+
+header,
+footer {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+    caption-side: top;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    table-layout: auto;
+    background-color: #ffffff;
+    border: 2px solid #d7d8d9;
+}
+
+colgroup:first-of-type col {
+    width: 40%;
+}
+
+colgroup + colgroup col {
+    width: 12%;
+}
+
+colgroup + colgroup col:nth-child(1),
+colgroup + colgroup col:nth-child(3),
+colgroup + colgroup col:nth-child(5) {
+    background-color: rgba(252, 252, 252, 0.65);
+}
+
+caption {
+    font-size: 150%;
+    font-weight: bold;
+    color: #0d2e48;
+    margin-bottom: 0.75rem;
+}
+
+td,
+th {
+    border: 1px solid #183b5e;
+    padding: 0.65em 0.8em;
+}
+
+thead th {
+    background-color: #ffffff;
+    color: #100d0d;
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody th {
+    text-align: left;
+    font-weight: bold;
+    background-color: #eef3f8;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+tfoot td {
+    font-size: 70%;
+    text-align: center;
+    background-color: #e6edf5;
+    color: #333;
+}
+
+small {
+    color: #444;
+}
+
