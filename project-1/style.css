@@ -367,3 +367,105 @@ article p {
   background: rgba(138, 178, 209, 0.28);
   color: #ffffff;
 }
+/*
+   FILES 
+*/
+
+#files .container {
+  display: grid;
+  gap: 1rem;
+}
+
+#files .container h3 {
+  margin-bottom: 0;
+}
+
+#files .link-downloadcss,
+#files .link-downloadhtml,
+#files .link-codepen {
+  min-width: 10rem;
+}
+/*
+   PROFILE 
+*/
+.profile,
+#styles,
+.page-footer {
+  padding-top: 0;
+}
+
+.profile,
+#styles {
+  padding-bottom: 2rem;
+}
+
+.profile ul,
+.features,
+.page-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.profile li,
+.features li > span,
+.page-footer li a {
+  padding: 0.8rem 0.9rem;
+  border-radius: 0.75rem;
+  background: rgba(0, 0, 0, 0.16);
+}
+
+.profile li span:first-child {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+/* FEATURES */
+.features {
+  grid-template-columns: 1fr;
+}
+
+.features li:first-child {
+  border-left: 4px solid #f4c56d;
+  padding-left: 0.25rem;
+}
+
+.features a {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.features a span[aria-hidden="true"]::before {
+  content: none;
+}
+/* FOOTER */
+.page-footer {
+  padding-bottom: 3rem;
+}
+.page-footer li a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.page-footer li a svg {
+  margin-right: 0.55rem;
+}
+
+.page-footer .link-github {
+  margin-top: 0;
+}
+
+.page-footer .link-github svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
