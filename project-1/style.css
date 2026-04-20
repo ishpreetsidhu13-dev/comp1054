@@ -128,3 +128,78 @@ main > .container,
   left: 1rem;
 }
 /*
+   HEADER
+*/
+header {
+  position: relative;
+  padding: 2rem 0 1rem;
+  overflow: hidden;
+}
+header::before,
+header::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+header::before {
+  width: 18rem;
+  height: 18rem;
+  top: -6rem;
+  right: -5rem;
+  background: radial-gradient(circle, rgba(244, 197, 109, 0.24), transparent 68%);
+}
+header::after {
+  width: 14rem;
+  height: 14rem;
+  bottom: -4rem;
+  left: -4rem;
+  background: radial-gradient(circle, rgba(160, 0, 0, 0.18), transparent 68%);
+}
+header .container {
+  position: relative;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  background: linear-gradient(135deg, rgba(20, 26, 38, 0.9), rgba(10, 14, 24, 0.9));
+  border: 1px solid rgba(244, 197, 109, 0.16);
+  border-radius: 1.3rem;
+  box-shadow: 0 1.2rem 2rem rgba(0, 0, 0, 0.25);
+}
+header h1 {
+  margin-bottom: 0.35rem;
+  color: #ffd15c;
+  text-shadow: 0.08em 0.08em 0 rgba(0, 0, 0, 0.25);
+}
+header h2 {
+  max-width: 15ch;
+  color: #f7e3bf;
+}
+header p {
+  max-width: 42rem;
+  color: #ddd3c4;
+}
+header .link-github {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  padding: 0.85rem 1.1rem;
+  background: linear-gradient(135deg, #f4c56d, #d9972f);
+  color: #181818;
+  text-decoration: none;
+  border-radius: 999px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+header .link-github span {
+  margin-right: 0.6rem;
+}
+header .link-github:hover,
+header .link-github:focus {
+  color: #111111;
+  background: linear-gradient(135deg, #ffd67d, #e2a742);
+}
+header .link-github svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
