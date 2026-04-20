@@ -203,3 +203,47 @@ header .link-github svg {
   height: 1rem;
   fill: currentColor;
 }
+
+/*
+   NAVIGATION
+*/
+nav {
+  position: static;
+  background: transparent;
+  border: 0;
+  margin-bottom: 1.5rem;
+}
+nav ul {
+  width: auto;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem;
+}
+nav li {
+  margin: 0;
+}
+nav > ul > li > a {
+  display: block;
+  padding: 0.7rem 1rem;
+  border: 1px solid rgba(244, 197, 109, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #f4efe7;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+  background: #f4c56d;
+  color: #111111;
+}
+nav a:active {
+  
+  background: #e2a742;
+}
