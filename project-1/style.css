@@ -98,3 +98,33 @@ a[href^="https"] {
 [class*="link-"] {
   transition: 0.25s ease;
 }
+/* 
+   LAYOUT
+ */
+header > .container,
+main > .container,
+.profile > .container,
+#styles > .container,
+.page-footer > .container {
+  width: min(62rem, 92%);
+  margin: 0 auto;
+}
+/* 
+   SKIP
+ */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 1rem;
+  z-index: 999;
+  padding: 0.8rem 1rem;
+  background: #ffffff;
+  color: #111111;
+  border-radius: 0.4rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+.skip-link:focus {
+  left: 1rem;
+}
+/*
