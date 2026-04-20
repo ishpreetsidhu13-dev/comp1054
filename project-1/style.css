@@ -1,6 +1,7 @@
 /*
    Author: Ishpreet Singh
 */
+@import url("normalize.css");
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
