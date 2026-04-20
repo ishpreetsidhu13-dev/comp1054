@@ -469,3 +469,102 @@ article p {
   height: 1rem;
   fill: currentColor;
 }
+/*
+   MOBILE
+*/
+
+@media (max-width: 43.75rem) {
+  body {
+    font-size: 0.98rem;
+  }
+
+  header > .container,
+  main > .container,
+  .profile > .container,
+  #styles > .container,
+  .page-footer > .container {
+    width: 92%;
+  }
+
+  header .container {
+    max-width: none;
+  }
+
+  nav ul {
+    max-width: none;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+  }
+
+  nav a {
+    white-space: nowrap;
+  }
+
+  header h2 {
+    max-width: 12ch;
+  }
+
+  #files .link-downloadcss,
+  #files .link-downloadhtml,
+  #files .link-codepen {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* DESKTOP */
+@media (min-width: 64rem) {
+  body {
+    font-size: 1.05rem;
+  }
+
+  header > .container,
+  main > .container,
+  .profile > .container,
+  #styles > .container,
+  .page-footer > .container {
+    width: min(62rem, 92%);
+  }
+
+  header .container {
+    max-width: 40rem;
+    padding: 3rem;
+  }
+
+  nav ul {
+    max-width: 40rem;
+  }
+
+  main > .container {
+    grid-template-columns: 1fr;
+  }
+
+  #about,
+  #guidelines,
+  #contribute {
+    grid-column: auto;
+  }
+
+  #files .container {
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-content: start;
+    gap: 0.75rem;
+  }
+
+  #files .container h3 {
+    grid-column: 1 / -1;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .page-footer ul {
+    grid-template-columns: repeat(4, auto);
+    gap: 0.9rem;
+  }
+}
+
